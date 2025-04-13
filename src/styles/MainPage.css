@@ -1,0 +1,686 @@
+header{
+    margin: 0;
+    padding: 0;
+    height: 95px;
+    box-shadow: 3px 3px 3px 3px #0606060D;
+    display: flex;
+    width: 100vw;
+}
+
+*{
+    font-family: "Montserrat", serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Montserrat", serif;
+  background-color: #fff;
+}
+
+.logo{
+    width: 173px;
+    height: 29px;
+    margin-left: 61px;
+    margin-top: 28px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 36px;
+    margin-left: 22px;
+}
+
+nav ul li{
+    margin-left: 46px;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: medium;
+    color: black;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
+    color: #45A24D;
+}
+
+.icon{
+    margin-left: 200px;
+    width: 23px;
+    height: 20px;
+    margin-top: 37px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.log{
+    border: 1px solid #BBBBBB;
+    background-color: transparent;
+    width: 127px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 17px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+}
+
+.sign{
+    background-color: #45A24D;
+    border: none;
+    color: white;
+    font-weight: 800;
+    width: 127px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 17px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", serif;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    padding-top: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    width: 433px;
+    height: 625px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .modal-content h2{
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .modal-content form label{
+    align-self: flex-start; 
+    margin-left: 45px;
+    margin-bottom: 7px;
+    margin-top: 9px;
+  }
+  
+  .modal-content form input {
+    padding-left: 15px;
+    background-color: transparent;
+    border: 1px solid #7D7D7D;
+    border-radius: 15px;
+    width: 277px;
+    height: 45px;
+    padding-right: 10px;
+  }
+  
+  .modal-content form button {
+    width: 287px;
+    height: 43px;
+    background-color: #45A24D;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .modal-content form a {
+    font-size: 14px;
+    color: blue;
+    text-decoration: none;
+    align-self: flex-start; 
+    margin-left: 45px;
+    margin-top: 15px;
+  }
+  
+  .modal-content form p {
+    font-size: 9px;
+    font-weight: bold;
+  }
+  
+  .social-login {
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 25px;
+    height: 43px;
+  }
+  
+  .social-login.facebook {
+    background-color: #3C5A9A;
+  }
+  
+  .social-login.google {
+    background-color: transparent;
+    color: #7D7D7D;
+    border: 1px solid #7D7D7D;
+  }
+  
+  .signup-link {
+    font-size: 10px;
+    font-weight: 800;
+  }
+  
+  .signup-link a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+
+  .con{
+    color: #7D7D7D;
+    font-size: 10px;
+    margin-top: 22px;
+    margin-left: 45px;
+  }
+
+  .login-btn{
+    margin-top: 30px;
+  }
+  
+  .modal-content1 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    width: 433px;
+    height: 382px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .modal-content1 form{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content1 form p {
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: 200;
+    margin-bottom: 30px;
+  }
+
+  .modal-content1 form label{
+    margin-bottom: 7px;
+    margin-left: -200px;
+    margin-top: 9px;
+  }
+  
+  .modal-content1 form input {
+    padding-left: 15px;
+    background-color: transparent;
+    border: 1px solid #7D7D7D;
+    border-radius: 15px;
+    width: 277px;
+    height: 45px;
+    padding-right: 10px;
+    margin-left: 40px;
+  }
+  
+  .modal-content1 form button {
+    width: 287px;
+    height: 43px;
+    background-color: #45A24D;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  
+  .hero {
+    display: flex;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('./Ellipse.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+
+  .hero-text{
+    margin-left: 130px;
+    margin-top: 125px;
+  }
+  
+  .hero-text h2 {
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .hero-text p{
+    color: #3D6B2C;
+    font-size: 16px;
+    max-width: 386px;
+    font-weight: 300;
+    margin-top: 13px;
+  }
+
+  .hero-text .gr{
+    color: #52863F;
+  }
+  
+  .hero-image img {
+    width: 500px;
+    height: 491px;
+    margin: 0;
+    margin-top: 100px;
+    margin-left: 95px;
+  }
+
+  .cta-btn{
+    background-color: #45A24D;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    width: 214px;
+    height: 54px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 33px;
+  }
+  
+
+  .features {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 180px;
+  }
+
+  .features h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+  }
+  
+  .feature{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 77px;
+    margin-left: 14px;
+  }
+
+  .feature-text{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .feature-text p{
+    text-align: center;
+  }
+
+  .recipes-container {
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Montserrat", serif;
+  }
+  
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 150px;
+    color: #376326;
+  }
+  
+  .card-group {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 30px;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 385px;
+    height: 431px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 3px 50px rgba(0,0,0,0.1);
+    padding-top: 10rem; /* Increased padding for image space */
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease;
+    overflow: visible; /* Allow image to overflow */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-image {
+    width: 241px;
+    height: 248px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: -100px; /* Half of image height to float it */
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    background-color: white;
+    border: 4px solid white;
+  }
+  
+  
+  .card-title {
+    font-weight: bold;
+    margin: 1rem 0 0.5rem;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #000;
+    width: 350px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .like-button,
+  .update-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+  }
+  
+  .like-button {
+    color: #555;
+  }
+  
+  .like-button.liked {
+    color: red;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    background-color: transparent;
+  }
+
+  .ratings-container {
+    padding: 3rem 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .ratings-title {
+    font-size: 48px;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .highlight {
+    color: #2e7d32;
+  }
+  
+  .ratings-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .ratings-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10rem 1.5rem 2rem;
+    width: 373px;
+    height: 377px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.6), 0 1px 1px rgba(0, 0, 0, 0.3);
+    position: relative; /* This makes the card the reference point for the image wrapper */
+    overflow: visible;
+    margin-top: 150px;
+    z-index: 2; /* Ensure the card content stays in front of the image */
+  }
+  
+  .ratings-image-wrapper {
+    position: absolute;
+    top: -130px; /* Adjust this to control how much the image overlaps */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4a6655;
+    border-radius: 50%;
+    padding: 20px;
+    z-index: 0; /* Put the image wrapper behind the card content */
+  }
+  
+  .ratings-image {
+    width: 237px;
+    height: 233px;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 1; /* The image is in front of the image wrapper but behind the content */
+  }
+  
+  
+  .ratings-name {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .ratings-review {
+    font-style: italic;
+    font-size: 16px;
+    margin: 0.8rem 0;
+    color: #444;
+  }
+  
+  .star-rating {
+    color: #f9e54c;
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  
+  .empty-star {
+    color: #ddd;
+  }
+
+  .lini{
+    margin-top: 168px;
+    margin-bottom: 80px;
+  }
+  
+
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto; /* Pushes the button to the right side */
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 50px;
+  }
+
+  .contact-info h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .contact-info{
+    color: #C9C9C9;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 50px;
+    width: 491px;
+    height: 647px;
+    background-image: url('./contact_back.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .info-details img{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+  }
+
+  .info-details{
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .social-icons{
+    margin-top: 180px;
+  }
+
+  .social-icons a{
+    margin-right: 20px;
+  }
+
+  .form-group label{
+    font-size: 12px;
+    color: #8D8D8D;
+    font-weight: 600;
+  }
+
+  .contact-form form {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+    gap: 20px; 
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column; /* Keeps label on top of the input */
+    flex: 1; /* This makes the form fields take equal space */
+    margin: 5px; /* Optional: Adds spacing between the form groups */
+  }
+  
+  .form-group input {
+    background-color: transparent;
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #8D8D8D; /* Add underline */
+    outline: none; /* Remove focus outline */
+    padding: 5px; /* Optional: for some padding inside the input */
+    box-shadow: none;
+    font-size: 12px;
+    width: 278px;
+    border-radius: 0;}
+
+    .ff{
+        background-color: transparent;
+        border: none; /* Remove all borders */
+        padding: 5px;
+        outline: none;
+        font-size: 12px;
+        border-bottom: 1px solid #8D8D8D;
+        width: 600px;
+    }
+  
+    .contact-form form button{
+        width: 214px;
+        height: 54px;
+        margin-left: auto;
+        background-color: #5B9069;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 45px;
+    }
+
+footer{
+    margin-top: 190px;
+    background-color: #2D4F36;
+    height: 479px;
+    padding-top: 170px;
+}
+
+.footer-content{
+    width: 1181px;
+    height: 220px;
+    border-top: 1px solid #fff;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+}
+
+.reach .r{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+

@@ -1,0 +1,36 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --border-color: #dee2e6;
+  --card-background: #ffffff;
+  --input-background: #f8f9fa;
+}
+
+[data-theme='dark'] {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --primary-color: #90caf9;
+  --secondary-color: #a0aec0;
+  --border-color: #2d3748;
+  --card-background: #1e1e1e;
+  --input-background: #2d2d2d;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.card {
+  background-color: var(--card-background);
+  border-color: var(--border-color);
+}
+
+input, textarea, select {
+  background-color: var(--input-background);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}

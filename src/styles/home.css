@@ -1,0 +1,336 @@
+
+body{
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    height: 95px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    padding: 0; /* Ensure no extra padding is applied */
+    box-sizing: border-box; /* Ensures padding doesn't add extra width */
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+.search-container {
+    position: relative;
+    margin-left: 320px;
+  }
+ 
+ 
+  .logoo{
+    width: 170px;
+    height: 33px;
+    transition: transform 0.3s ease;
+  }
+ 
+ 
+  .logoo:hover {
+    transform: scale(1.1);
+ }
+   .search-input {
+    width: 327px;
+    height: 37px;
+    border: 1px solid #C4C4C4;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 0;
+    font-size: 16px;
+  }
+  .search-button {
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 0;
+  }
+ 
+ 
+  .notification-button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 44px;
+    margin-right: 28px;
+    margin-left: 230px;
+  }
+ 
+ 
+  .account{
+    background-color: #5D9C5B;
+    color: #FAFAFA;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+
+.sidebar{
+    display: flex;
+}
+
+.nav{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 742px;
+    width: 308px;
+  }
+ 
+
+.sidebar nav ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-left: 30px;
+    padding-left: 0;
+}
+
+.nav ul li{
+    margin-bottom: 25px;
+  }
+ 
+ 
+  .nav ul li a{
+    font-size: 18px;
+    font-weight: 550;
+  }
+ 
+ 
+  .nav ul li a img{
+    margin-right: 20px;
+  }
+ 
+  .calendar-container{
+    margin-top: 60px;
+    margin-bottom: 70px;
+ }
+  .calendar-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-direction: column;
+  }
+   .calendar-week {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+   .calendar-day-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-left: 44px;
+  }
+   .calendar-weekday {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #000;
+  }
+   .calendar-date-circle {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #000;
+    transition: all 0.3s ease;
+  }
+   .calendar-day-block.selected .calendar-date-circle {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+ 
+ 
+  .calendar-day:hover {
+    background-color: #e0e0e0;
+  }
+
+
+  .meal-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #D3D3D3;
+    width: 850px;
+    height: 108px;
+    margin-left: 82px;
+  }
+   .meal-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 82px;
+  }
+   .meal-details {
+    display: flex;
+    align-items: center;
+  }
+ 
+ 
+  .det{
+    margin-left: 35px;
+  }
+ 
+ 
+  .meal-details img{
+    width: 93px;
+    height: 85px;
+  }
+   .meal-name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+   .meal-info {
+    font-size: 16px;
+    color: #555;
+    margin-top: 5px;
+  }
+   .edit-button {
+    background-color: #5d9c5b;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   .edit-button:hover {
+    background-color: #4a7d4a;
+  }
+   .add-meal {
+    display: flex;
+    justify-content: center;
+  }
+   .add-meal-button {
+    width: 850px;
+    height: 75px;
+    display: flex;
+    padding-left: 355px;
+    padding-top: 20px;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 70px;
+    border: 2px dashed #AFAFAF;
+    font-family: "Montserrat", serif;
+  }
+   .add-meal-button:hover {
+    background-color: #3b8f3b;
+  }
+ 
+ 
+  .plus{
+    width: 36px;
+    border: none;
+    height: 36px;
+    background-color: #34A853;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 50px;
+    margin-right: 20px;
+  }
+ 
+ 
+  .circle-button {
+    width: 34px;
+    height: 31px;
+    border-radius: 50%;
+    border: 1px solid #C6C6C6;
+    background-color: #77CD7C;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 465px;
+  }
+   .circle-button:hover {
+    background-color: #3b8f3b;
+  }
+   .checkmark {
+    font-size: 18px;
+  }
+ 
+ 
+  .modal_home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+   .modal_home .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 532px;
+    height: 552px;
+    text-align: center;
+  }
+   .close-button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+   .meal-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+   .meal-option {
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+   .meal-option img {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+   .meal-option p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+ 
+ 
+
+
+

@@ -1,0 +1,258 @@
+.profile-container {
+    padding-top: 42px;
+    padding-left: 80px;
+  }
+
+  .profile-container .line{
+    width: 850px;
+  }
+  
+  .profile-container h1 {
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .profile-container p {
+    font-size: 16px;
+    color: #818181;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .profile {
+    padding: 20px;
+    background-color: #fff;
+    width: 700px;
+    height: 429px;
+    margin-top: 30px;
+    margin-left: 75px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
+  .profile-info{
+    margin-top: 15px;
+  }
+  
+  .profile-info h2 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .profile-info p {
+    font-size: 15px;
+    color: gray;
+  }
+  .profile-details {
+  }
+  
+  .profile-detail {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .profile-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .profile-info-item {
+    width: 48%;
+  }
+  
+  .profile-info-item label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .profile-info-item input,
+  .profile-info-item select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .profile-info-item input::placeholder,
+  .profile-info-item select option {
+    color: #aaa;
+  }
+  
+  .profile-info-item span {
+    font-size: 14px;
+    color: #555;
+  }
+
+
+  .weight-tracker {
+    width: 702px;
+    height: 456px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 75px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weight-tracker .header {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .weight-tracker .header h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .weight-tracker .header p {
+    font-size: 13px;
+    color: #949494;
+    width: 305px;
+  }
+  
+  .weight-tracker .main-content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: -80px;
+    margin-bottom: 20px;
+  }
+  
+  .graph-container {
+    flex: 2;
+    width: 568px;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .graph {
+    width: 568px;
+    height: 255px;
+  }
+  
+  .grid-lines line {
+    stroke: #eee;
+  }
+  
+  .text {
+    font-size: 16px;
+    text-anchor: middle;
+  }
+
+  .weight-info-container {
+    width: 202px;
+    height: 125px;
+    margin-left: 70px;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weight-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 30px;
+  }
+  
+  .weight-info h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .weight-info .current-weight {
+    font-size: 10px;
+    font-weight: bold;
+    color: #6e2c2c;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .weight-info .goal-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .weight-info .goal-info div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .weight-info .goal-info span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #6e2c2c;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .weight-info .goal-info p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pie-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin-left: -260px;
+  }
+  
+  .pie-chart svg {
+    transform: rotate(-90deg);
+  }
+  
+  
+  
+
+  
+  
+  
