@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# NutriMind - README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Title
 
-## Available Scripts
+NutriMind - Scan, Analyze, and Cook with Your Ingredients
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+NutriMind is an application designed to help users manage their pantry, make informed shopping choices, and create healthy recipes with the ingredients they have at hand. By scanning ingredients, the app analyzes the nutritional value and gives suggestions for recipes based on what you already have. Additionally, NutriMind offers features that allow users to track the halal or haram status of ingredients, providing an easy and reliable way to make healthy and ethical food choices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Problem Statement
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Finding healthy and ethical food choices can be a challenge, especially when trying to align dietary preferences with the availability of ingredients. NutriMind helps users by scanning ingredients to determine their nutritional value and halal status, allowing for smarter, healthier, and ethically sound food decisions. This project aims to streamline the process of tracking pantry items and making better food choices, saving time and reducing food waste.
 
-### `npm test`
+## Objectives
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* To scan, analyze, and suggest recipes based on ingredients already available in the pantry.
+* To allow users to track their pantry and manage food consumption effectively.
+* To determine the halal status of ingredients to support dietary preferences.
+* To provide healthy, informed shopping choices based on pantry stock and recipe suggestions.
 
-### `npm run build`
+## Technology Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **Frontend**: ReactJS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Team Members
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Atibek Togzhan
